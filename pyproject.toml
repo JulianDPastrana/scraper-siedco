@@ -1,0 +1,17 @@
+[project]
+name = "scraper-siedco"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "JulianDPastrana",email = "j.pastrana@utp.edu.co"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "selenium (>=4.28.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
